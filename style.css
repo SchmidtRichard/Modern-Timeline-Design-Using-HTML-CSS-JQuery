@@ -43,8 +43,6 @@ div.one:after {
     animation: spinLeft 800ms linear infinite;
 }
 
-
-
 div.one:after {
     width: 4vmax;
     height: 4vmax;
@@ -55,6 +53,15 @@ div.one:after {
     animation: nome;
 }
 
+
+@keyframes spinRight {
+    from {
+        transform: rotate(360deg);
+    }
+    to {
+        transform: rotate(0deg);
+    }
+}
 
 
 
