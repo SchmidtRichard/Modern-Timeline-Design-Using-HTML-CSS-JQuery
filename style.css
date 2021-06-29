@@ -53,7 +53,6 @@ div.one:after {
     animation: nome;
 }
 
-
 @keyframes spinRight {
     from {
         transform: rotate(360deg);
@@ -62,6 +61,16 @@ div.one:after {
         transform: rotate(0deg);
     }
 }
+
+
+
+.center {
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
 
 
 
