@@ -45,6 +45,17 @@ div.one:after {
 
 
 
+div.one:after {
+    width: 4vmax;
+    height: 4vmax;
+    top: calc(50% - 2vmax);
+    left: calc(50% - 2vmax);
+    border: 0;
+    border-right: 2px solid white;
+    animation: nome;
+}
+
+
 
 
 
