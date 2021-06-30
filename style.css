@@ -72,6 +72,23 @@ div.one:after {
 
 
 
+.start ul li:nth-child(1) {
+    background: url(images/process-bg-1.png) 65px top no-repeat !important;
+    padding-top: 180px !important;
+}
+
+.start ul li:nth-child(odd) {
+    background: url(images/process-line-3.png) 65px top no-repeat;
+    padding-top: 100px !important;
+}
+
+.start ul li:nth-child(even) {
+    background: url(images/process-line-2.png) 65px top no-repeat;
+    padding-left: 590px;
+    padding-top: 100px;
+}
+
+
 
 
 
