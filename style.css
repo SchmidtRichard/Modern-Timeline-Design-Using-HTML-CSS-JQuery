@@ -100,8 +100,6 @@ div.one:after {
     font-size: 30px;
 }
 
-
-
 .start ul li .media-body {
     max-width: 390px;
 }
@@ -111,6 +109,28 @@ div.one:after {
 }
 
 
+
+
+
+
+.home .process:after {
+    background: url(images/process-bg-1.png) center top no-repeat;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    content: "";
+    width: 100%;
+    z-index: 1;
+}
+
+.home .process:before {
+    position: absolute;
+    top: 0px;
+    content: "";
+    width: 100%;
+    left: 0px;
+    background: white;
+}
 
 
 
